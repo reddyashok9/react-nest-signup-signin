@@ -1,5 +1,7 @@
 # react-nest-signup-signin 
 
+Any MongoDB can be attached 
+
 http://localhost:3001/users/me : Get
 
 http://localhost:3001/auth/signin : Post
@@ -18,5 +20,7 @@ http://localhost:3001/users/signup : Post
 }
 
 
-React app using vitejs
+React app with Typescript
+
+
 
