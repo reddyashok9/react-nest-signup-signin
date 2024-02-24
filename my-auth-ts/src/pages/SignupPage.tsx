@@ -34,7 +34,7 @@ const SignupPage: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className="signup">
       <h1>Signup</h1>
       <Formik
         initialValues={{ name: '', email: '', password: '' }}

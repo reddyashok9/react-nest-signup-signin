@@ -11,7 +11,7 @@ const SigninSchema = Yup.object().shape({
 const SigninPage: React.FC = () => {
     const navigate = useNavigate()
   return (
-    <div>
+    <div className="signup">
       <h1>Signin</h1>
       <Formik
         initialValues={{ email: '', password: '' }}
